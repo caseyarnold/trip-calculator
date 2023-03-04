@@ -12,7 +12,8 @@ whether the route is east-bound or west-bound. Returns either 'east' or 'west' a
 calculateDistance() -> Given an entry and exit interchange as a string, 
 it will determine the distance between the two in kilometres and return it as a floating point
 
-costOfTrip() -> Given an entry and exit interchange as a string, it will calculate the total cost to travel this segment
+costOfTrip() -> Given an entry and exit interchange as a string, it will calculate the total 
+cost to travel this segment
 
 generateList() -> Given an entry and exit interchange, a list will be returned containing 
 only the keys of the traversed interchanges ordered in the direction of travel
