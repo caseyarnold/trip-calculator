@@ -2,17 +2,20 @@
 
 *Goal:* Given an entry and exit point, calculate the toll based on the rate of $0.25/km.
 
-*Code Overview:* The trip calculator has been implemented as a class in Python 3. The TollCalculator class is stored in toll_calculator.py whereas its unit tests, written using the built-in unittest library are stored in toll_calculator_tests. Below is an overview of its functions:
+*Code Overview:* The trip calculator has been implemented as a class in Python 3. The TollCalculator class is stored in toll_calculator.py whereas its unit tests, written using the built-in unittest library are stored in toll_calculator_tests.py. Below is an overview of its functions:
 
 ```
 
-calculateDirection() -> Takes entry and exit interchanges as a string and determines whether the route is east-bound or west-bound. Returns either 'east' or 'west' as a string.
+calculateDirection() -> Takes entry and exit interchanges as a string and determines 
+whether the route is east-bound or west-bound. Returns either 'east' or 'west' as a string.
 
-calculateDistance() -> Given an entry and exit interchange as a string, it will determine the distance between the two in kilometres and return it as a floating point
+calculateDistance() -> Given an entry and exit interchange as a string, 
+it will determine the distance between the two in kilometres and return it as a floating point
 
 costOfTrip() -> Given an entry and exit interchange as a string, it will calculate the total cost to travel this segment
 
-generateList() -> Given an entry and exit interchange, a list will be returned containing only the keys of the traversed interchanges ordered in the direction of travel
+generateList() -> Given an entry and exit interchange, a list will be returned containing 
+only the keys of the traversed interchanges ordered in the direction of travel
 
 ```
 
