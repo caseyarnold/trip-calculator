@@ -8,7 +8,7 @@
 
 calculateDirection() -> Takes entry and exit interchanges as a string and determines whether the route is east-bound or west-bound. Returns either 'east' or 'west' as a string.
 
-calculateDistance() -> Given an entry and exit interchange as a string, it will dzetermine the distance between the two in kilometres and return it as a floating point
+calculateDistance() -> Given an entry and exit interchange as a string, it will determine the distance between the two in kilometres and return it as a floating point
 
 costOfTrip() -> Given an entry and exit interchange as a string, it will calculate the total cost to travel this segment
 
